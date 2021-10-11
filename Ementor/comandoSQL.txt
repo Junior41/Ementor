@@ -15,7 +15,7 @@ CREATE TABLE ementor.Usuarios (nome VARCHAR(20),  CPF VARCHAR(15) PRIMARY KEY, s
 INSERT INTO Pessoas(nome, dataNascimento, CPF, telefone) VALUES ("junior", "04/03/2002", "144", "(27)2569881");
 
 
-INSERT INTO Usuarios(nome, senha, CPF) VALUES ("junior", "2407", "144");
+INSERT INTO Usuarios(nome, senha, CPF) VALUES ("junior", "4405", "144");
 
 CREATE TABLE ementor.Alunos (CPF VARCHAR (15) PRIMARY KEY, matricula VARCHAR(20) UNIQUE, periodo TINYINT, FOREIGN KEY(CPF) REFERENCES ementor.Pessoas(CPF));
 
